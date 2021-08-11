@@ -1,0 +1,155 @@
+    <!DOCTYPE HTML>
+    <html lang="pl">
+    <head>
+    
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Feniks Twardogóra</title>
+        <meta name="description" content="Klub Strzelecki Feniks Twardogóra" />
+        <meta name="keywords" content="feniks, twardogóra, strzelectwo sportowe," />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="css/fontello.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="img\logo_feniks.jpg">
+    </head>
+    
+    <body>
+    
+        <div class="wrapper">
+            <div class="header">
+                <img src="img/ksfeniks.png" style="float: left;"/>
+            
+                <div class="logo">
+                    
+                    <span style="color: #fd3939">Feniks Twardogóra</span>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+            <div class="nav">
+                <ol>
+                    <li><a href="index.htm">Aktualności</a></li>
+                    <li><a href="#">Klub</a>
+                        <ul>
+                            <li><a href="n_klub.html">O klubie</a></li>
+                            <li><a href="n_zarzad.html">Zarząd</a></li>
+                            <li><a href="n_strzelnica.html">Strzelnica</a></li>
+                            <li><a href="n_zapisy.html">Zapisy do klubu</a></li>
+                            <li><a href="n_galeria.html">Galeria</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Zawody</a>
+                        <ul>
+                            <li><a href="n_komunikaty.html">Komunikaty</a></li>
+                            <li><a href="n_kalendarz.html">Kalendarz imprez</a></li>
+                            <li><a href="n_regulamin.html">Regulamin</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Rekordy</a>
+                        <ul>
+                            <li><a href="n_rekordy.html">Rekordy klubowe</a></li>
+                            <li><a href="n_mistrzowie.html">Mistrzowie Polski</a></li>
+                            <li><a href="n_puchary.html">Puchary Polski</a></li>
+                            <li><a href="n_podia.html">Miejsca na podium</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="n_linki.html">Linki</a></li>
+                    <li><a href="n_kontakt.html">Kontakt</a></li>
+                </ol>
+            
+            </div>
+            
+            <div class="content">
+                    <font color="black" size="4"><b>Kontakt</b></font><br/>
+                    <hr align="center" color="black" />
+                    <div id="content">
+                        <div>
+                            <br>
+                            <b>Adres:</b><br>
+                            Klub Strzelecki "FENIKS" Twardogóra<br>
+                            Wesółka 4d<br>
+                            56-416 Twardogóra<br>
+                            <br><br>
+                            <b>Telefon:</b><br>
+                            +48 693 109 175<br>
+                            <br><br>
+                            <b>Poczta elektroniczna:</b><br>
+                            <a href="mailto: feniks.twardogora@gmail.com" style="text-decoration: none;" >feniks.twardogora@gmail.com</a><br>
+                            <a href="mailto: feniks.twardogora@outlook.com" style="text-decoration: none;">feniks.twardogora@outlook.com</a>
+                            <br><br>
+                            <b>Konto bankowe klubu:</b><br>
+                            BS Oleśnica: 65 9584 1047 2005 0500 0967 0001
+                            <br><br>
+                            <b>NIP:</b><br>
+                            911-187-75-67
+                            <br><br>
+                            <b>GPS:</b><br>
+                            N 51.377554, E 17.460721
+                            <br><br>
+                            <b>Dojazd:</b><br>
+                            <a href="https://goo.gl/maps/ctPqmKjdXmndpNRk7" target="_blank" style="text-decoration: none;">Mapa Google</a>
+                            <br><br>
+                        </div>
+                        <hr align="center" color="black" />
+                    </div>
+            
+    
+    
+            </div>
+            
+    
+            <div class="socials">
+                <div class="socialdivs">
+                    <div class="fb"> 
+                        <a href="https://www.facebook.com/Feniks.Twardogora/?ref=page_internal" target="_blank" class="sociallink">
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="yt">
+                        <a href="https://www.youtube.com/channel/UCIfF93Hj1uot5YG-HcIiKBA" target="_blank" class="sociallink">
+                             <i class="icon-youtube"> </i>
+                        </a>
+                    </div>
+                    
+                    <div class="tw"> 
+                        <a href="https://twitter.com/Feniks_Tw" target="_blank" class="sociallink">
+                            <i class="icon-twitter"> </i>
+                        </a>
+                    </div>
+                    
+                    <div style="clear:both"></div>	
+                </div>
+                
+            </div>
+    
+            <div class="footer" style="color: #fd3939">&copy; &nbsp; Feniks Twardogóra 2021</div>
+        </div>
+        
+    <script src="jquery-1.11.3.min.js"></script>
+        
+    <script>
+        $(document).ready(function() 
+        {
+            var NavY = $('.nav').offset().top;
+            var stickyNav = function()
+            {
+            var ScrollY = $(window).scrollTop();
+            if (ScrollY > NavY) 
+                { 
+                    $('.nav').addClass('sticky');
+                } else 
+                    {
+                        $('.nav').removeClass('sticky'); 
+                    }
+            };
+            stickyNav();
+            $(window).scroll(function() 
+            {
+                stickyNav();
+            });
+        });
+        
+    </script>
+        
+    </body>
+    </html> 
