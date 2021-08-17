@@ -1,0 +1,42 @@
+﻿odsyłacze: odswież, poczta wyslij do znajomego itp wez ze strony kazimierza
+
+
+zmienny obrazek w nagłówku wez z www_listy do betti
+
+
+
+nagłówek zamknij w tabeli to mozesz dołozyc dowolne marqee lub dodatkowe zdjecie na warstwie
+
+
+kalendarz wez z kazimierza jest bezbarwny
+
+
+strona głowna - aktualności
+o klubie
+
+zarzad i kadra
+strzelnica
+zawody - 
+wyniki - komunikaty
+
+regulaminykalendarz strzelań na bierzacy rok
+forum
+inne strony
+archiwum
+filmy
+
+
+
+kodowanie maila:
+
+zamiast <a href="mailto:adres@domena.pl">adres@domena.pl</a>:
+
+<a href="m&#x61;&#x69;&#108;&#116;&#111;&#x3A;
+f&#101;&#x6E;&#x69;&#107;&#x73;&#x2E;&#116;w&#x61;rd&#x6F;g&#x6F;r&#x61;&#64;gm&#x61;&#x69;&#108;&#x2E;&#99;&#x6F;m">
+f&#101;&#x6E;&#x69;&#107;&#x73;&#x2E;&#116;w&#x61;rd&#x6F;g&#x6F;r&#x61;&#64;gm&#x61;&#x69;&#108;&#x2E;&#99;&#x6F;m
+</a>
+
+
+Sam adres e-mail do wstawienia do kodu strony:
+
+f&#101;&#x6E;&#x69;&#107;&#x73;&#x2E;&#116;w&#x61;rd&#x6F;g&#x6F;r&#x61;&#64;gm&#x61;&#x69;&#108;&#x2E;&#99;&#x6F;m
